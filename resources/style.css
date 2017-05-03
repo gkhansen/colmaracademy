@@ -1,0 +1,438 @@
+body, html {
+  font-size: 16px;
+  font-family: "Helvetica", sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+/* Begin Header Styling */
+
+.header {
+  width: 100%;
+  height: 64px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerleft {
+  padding-left: 24px;
+  display: inline-block;
+}
+
+.headerleft img {
+  display: inline-block;
+}
+
+.headerleft h2 {
+  display: inline-block;
+}
+
+.header ul {
+  display: inline-block;
+  list-style-type: none;
+  float: right;
+  padding-right: 24px;
+}
+
+.header li {
+  padding: 0px 16px;
+  display: inline-block;
+  font-size: 1.0rem;
+}
+
+.gray {
+  color: lightgray;
+}
+
+
+/* Start Jumbotron Content */
+
+.jumbotron {
+  width: 100%;
+  height: auto;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+}
+
+.jumbotron img {
+  width: 60%;
+  height: auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 24px;
+  padding-right: 40px;
+}
+
+.jumbotext {
+  display: inline-block;
+  float: right;
+  width: 25%;
+}
+
+.jumbotext h1 {
+  color: #4A4A4A;
+  font-size: 3rem;
+}
+
+.jumbotext h3 {
+  padding: 2rem 0rem;
+  color: #656565;
+}
+
+.jumbotext .button {
+  width: 100%;
+  background-color: #4A4A4A;
+  height: 3rem;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.jumbotext .button a {
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 3rem;
+}
+
+/* Start Section 1 Content */
+
+.content1 {
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  padding-left: 32px;
+  padding-bottom: 32px;
+}
+
+.content1 img {
+  width: 95%;
+  height: auto;
+  padding-top: 32px;
+}
+
+.content1 h2 {
+  color: #4A4A4A;
+  font-size: 3rem;
+  padding-top: 1rem;
+}
+
+.practice {
+  width: 65%;
+}
+
+.practice p {
+  color: #656565;
+  padding: 1.0rem 0rem;
+}
+
+.tabs {
+  width: auto;
+  max-width: 35%;
+  height: 700px;
+}
+
+.tabs img {
+  width: 35%;
+}
+
+#tabid {
+  display: flex;
+  align-items: center;
+  height: 33%;
+  border-left: 1px solid #D8D8D8;
+}
+
+#tabid img {
+  padding-left: 1rem;
+}
+
+.detail {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.detail h4 {
+  color: #4A4A4A;
+  font-size: 1.5rem;
+}
+
+.detail p {
+  color: #656565;
+  padding: 1rem 0rem;
+}
+
+.detail a {
+  text-decoration: none;
+}
+
+.lastdiv {
+  background-color: #D8D8D8;
+}
+
+/* Start content 2 styling */
+
+.content2 {
+  background-color: #EAEBEC;
+  width: 100%;
+}
+
+.content2 h2 {
+  color: #4A4A4A;
+  font-size: 3rem;
+  padding: 2rem 0rem;
+  text-align: center;
+}
+
+.learningbox {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#learningslide {
+  width: 400px;
+  height: auto;
+  margin: 32px 32px;
+  background-color: #ffffff;
+  text-align: left;
+  line-height: 2.4rem;
+}
+
+#learningslide img {
+  width: 100%;
+  height: auto;
+}
+
+#learningslide h4 {
+  padding-left: 16px;
+  padding-bottom: 10px;
+  color: #4A4A4A;
+  font-size: 1.5rem;
+}
+
+#learningslide p {
+  color: #929292;
+  padding-left: 16px;
+  font-size: 1.125rem;
+}
+
+/*start content 3 styling */
+
+
+.content3 {
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  text-align: center;
+  padding-left: 32px;
+  padding-bottom: 32px;
+}
+
+.content3 .thesisbox {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 500px;
+}
+
+.content3 h2 {
+  color: #4A4A4A;
+  font-size: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.thesis {
+  width: 55%;
+  padding-right: 2rem;
+}
+
+.thesis p {
+  color: #656565;
+  padding: 1.0rem 0rem;
+}
+
+.tabs {
+  width: auto;
+  max-width: 35%;
+}
+
+.tabs img {
+  width: 35%;
+}
+
+#tabid {
+  display: flex;
+  align-items: center;
+  height: 33%;
+}
+
+#tabid img {
+  padding-left: 1rem;
+}
+
+.content3 .detail {
+  padding-right: 3rem;
+  padding-left: 3rem;
+  text-align: left;
+  width: 100%;
+}
+
+.content3 .detail h4 {
+  color: #4A4A4A;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.content3 .detail p {
+  color: #656565;
+}
+
+.detail a {
+  text-decoration: none;
+}
+
+.lastdiv {
+  background-color: #D8D8D8;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  border-top: 1px solid #D8D8D8;
+  height: 2rem;
+  vertical-align: middle;
+}
+
+footer a {
+  text-decoration: none;
+  color: #D8D8D8;
+  float: right;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+footer p {
+  color: #D8D8D8;
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+
+.copyright {
+  padding-left: 24px;
+}
+
+
+
+/*Begin Mobile Styling*/
+
+@media only screen and (max-width: 480px) {
+
+.header h2, ul, li {
+  display: none;
+}
+
+.header {
+  height: 64px;
+}
+
+.jumbotron img {
+  display: none;
+}
+
+.jumbotron {
+  width: 100%;
+  height: 180px;
+  background-color: #9B9B9B;
+  display:block;
+}
+
+.jumbotext {
+  width: 100%;
+  height: auto;
+  word-wrap: normal;
+}
+
+.practice {
+  display: none;
+}
+
+.tabs {
+  width: 100%;
+}
+
+#tabid img {
+  width: 100%;
+}
+
+#learningslide img {
+  display: none;
+}
+
+#learningslide p {
+  display: none;
+}
+
+#learningslide {
+  width: 90%;
+}
+
+#learningslide h2 {
+  padding: 1rem 1rem;
+}
+
+.content3 .tabs {
+  display: none;
+}
+
+.content3 .detail {
+  display: none;
+}
+
+.content3 {
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+}
+
+.thesisbox {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.thesis {
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+}
+
+.video {
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+}
+
+.content3 video {
+  width: 100%;
+}
+
+
+
+
+}
